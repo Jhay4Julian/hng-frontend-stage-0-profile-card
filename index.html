@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main>
+      <article data-testid="test-profile-card">
+        <figure>
+          <img
+            <!-- src="assets/avatar.jpg" -->
+            src="https://via.placeholder.com/120"
+            alt="Profile photo of Julian Koripamo"
+            data-testid="test-user-avatar"
+          />
+          <figcaption>
+            <h2 data-testid="test-user-name">Julian Koripamo</h2>
+            <p class="role">Frontend Developer</p>
+          </figcaption>
+        </figure>
+
+        <div class="profile-details">
+          <p data-testid="test-user-bio">
+            Passionate frontend developer building accessible and responsive web
+            interfaces using HTML, CSS, and JavaScript.
+          </p>
+
+          <nav>
+            <ul data-testid="test-user-social-links">
+              <li>
+                <a
+                  href="https://twitter.com/jhay4julian"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-testid="test-user-social-twitter"
+                  >Twitter</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/jhay4julian"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-testid="test-user-social-github"
+                  >GitHub</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://linkedin.com/in/julian-koripamo-a4013b11b/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-testid="test-user-social-linkedin"
+                  >LinkedIn</a
+                >
+              </li>
+            </ul>
+          </nav>
+
+          <section>
+            <h3>Hobbies</h3>
+            <ul data-testid="test-user-hobbies">
+              <li>Coding</li>
+              <li>Watching Movies</li>
+              <li>Gaming</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>Dislikes</h3>
+            <ul data-testid="test-user-dislikes">
+              <li>Mayonnaise</li>
+              <li>Bugs in production</li>
+            </ul>
+          </section>
+
+          <p>
+            Current Time: <span data-testid="test-user-time"></span>
+          </p>
+      </article>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
