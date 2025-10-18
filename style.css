@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: system-ui, sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: #f3f4f6;
   display: flex;
   justify-content: center;
@@ -39,11 +39,13 @@ figure {
 }
 
 img[data-testid="test-user-avatar"] {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
+  border: 3px solid #0078ff;
   object-fit: cover;
   margin-bottom: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 figcaption h2 {
@@ -84,10 +86,15 @@ ul li {
   text-decoration: none;
   color: #2563eb;
   font-weight: 500;
+  transition: all 0.3s ease;
+  display: inline-block;
 }
 
 [data-testid="test-user-social-links"] a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+    transform: translateY(-4px);
+    color: #1e40af;
+
 }
 
 [data-testid="test-user-social-links"] a:focus {
