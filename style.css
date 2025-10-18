@@ -50,7 +50,7 @@ figcaption h2 {
   margin: 0.3rem 0 0;
 }
 
-.role {
+.user-role {
   color: #6b7280;
   font-size: 0.95rem;
   margin: 0;
@@ -118,7 +118,7 @@ ul li {
     font-size: 1.5rem;
   }
 
-  .role {
+  .user-role {
     margin-top: 0.2rem;
   }
 }
