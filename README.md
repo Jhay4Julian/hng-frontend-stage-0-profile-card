@@ -1,5 +1,5 @@
-## HNG FRONTEND STAGE 0 - PROFILE CARD
-A responsive and accessible Profile Card. 
+## HNG FRONTEND STAGE 1 - Profile Card, About and Contact Pages
+A responsive and accessible 3-page web app. 
 
 ## Stack
 - HTML
@@ -7,6 +7,9 @@ A responsive and accessible Profile Card.
 - JavaScript
 
 ## 🧠 Features
+- Navigation bar
+- 3 Pages (Profile, About Me & Contact Us)
+- Form with validation 
 - Dynamic time display using `Date.now()`
 - Fully responsive design (mobile → tablet → desktop)
 - Accessible and keyboard-navigable social links
@@ -16,8 +19,8 @@ A responsive and accessible Profile Card.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Jhay4Julian/hng-frontend-stage-0-profile-card.git
-cd hng-frontend-stage-0-profile-card
+git clone https://github.com/Jhay4Julian/hng-frontend-stage-1.git
+cd hng-frontend-stage-1
 ```
 
 ### 2. Open the project
