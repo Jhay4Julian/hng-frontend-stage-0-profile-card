@@ -59,6 +59,15 @@ figcaption h2 {
   margin: 0;
 }
 
+article section h3 {
+  color: #334155;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 0.3rem;
+}
+
 p {
   margin-bottom: 1rem;
 }
@@ -175,6 +184,11 @@ ul li {
 .nav-links a:hover {
   color: #007bff;
   transform: translateY(-2px);
+}
+
+.nav-links a.active {
+  color: #007bff;
+  font-weight: 600;
 }
 
 /* === Form === */
