@@ -24,11 +24,11 @@ article[data-testid^="test-"][data-testid$="-card"] {
   max-width: 700px;
   width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease-in-out;
 }
 
-article[data-testid="test-"][data-testid$="-card"] :hover {
-  transform: translateY(-4px);
+article[data-testid^="test-"][data-testid$="-card"]:hover {
+  transform: translateY(-5px);
 }
 
 figure {
